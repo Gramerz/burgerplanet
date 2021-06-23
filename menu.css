@@ -1,0 +1,203 @@
+body { 
+
+    background-image: url("/assets/burgerfondo.jpg");
+    background-size: cover;
+
+
+}
+
+/* Aca necesito hacer el fondo de la pantalla transparente */
+
+
+
+header, section, footer {
+    
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header {
+
+    background-color: #9a6936;
+    height: 260px;
+
+}
+
+section { 
+
+
+    background-color: #9a6936;
+    height: 600px;
+
+}
+
+footer {
+
+    background-color: 
+
+}
+
+
+header #loremId {
+    text-align:center;
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    width: 700px;
+    font-family: 'Courgette', cursive;
+    color: white;
+}
+
+#navcaja1 {
+    
+    position: relative;
+    width: 960px;
+    height: 70px;
+    background: linear-gradient(
+        100deg
+        , #010100, transparent);
+    float: left;
+
+}
+
+.titulo {
+
+    margin-left: 1em;
+    font-family: 'Courgette', cursive;
+    font-size: 150%;
+    bottom: 1px;
+    position: absolute;
+    left: 20px;
+    color: wheat;
+    text-shadow: 2px 2px 5px yellow;
+  
+}
+
+.lema {
+
+    
+    font-family: 'Courgette', cursive;
+    font-size: 100%;
+    bottom: 1px;
+    position: absolute;
+    left: 16%;
+    top: 40%;
+    color: wheat;
+    text-shadow: 2px 2px 5px yellow;
+  
+}
+
+#navegador {
+
+    position: relative;
+
+}
+
+.difuminado{
+    background-color: rgb(194 163 115 / 22%);
+    position: absolute;
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 150px;
+    right: 1px;
+
+}
+
+.hamburguesalogo { 
+
+    width: 42px;
+    margin-left: 96px;
+
+   }
+
+   
+
+#promosdeldia {
+
+    top: 7px;
+    width: 259px;
+    height: 240px;
+    background-image: url(https://image.freepik.com/foto-gratis/retrato-asombrado-aturdido-sorprendido-joven-ojos-boca-bien-abiertos_1150-12401.jpg);
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    border-radius: 150px;
+    left: 695px;
+    border: rgb(123, 76, 26) solid 2px;
+
+}
+
+.hamburguesapromos { 
+
+    width: 70%;
+    margin-top: 75px;
+    margin-left: 45px;
+    position: absolute;
+    
+    
+
+}
+
+.hombreasombrado { 
+
+    width: 100%;
+    position: absolute;
+    background-color: rgba(160, 81, 45, 0.469);
+    
+
+}
+
+
+
+
+
+#comprarpromo { 
+
+    width: 45%;
+    height: 9%;
+    background-color: yellow;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50% );   
+    border: solid rgba(0, 0, 0, 0.585) 2px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    text-decoration: none;
+}
+
+
+header ul {
+    position: relative;
+    color: wheat;
+    z-index: 2;
+    right: 600px;
+    top: 20px;
+    text-decoration: none;
+    
+}
+header ul li {
+    list-style: none;
+}
+header ul li a {
+
+    font-family: 'Courgette', cursive;
+    font-size: 100%;
+    position: absolute;
+    color: wheat;
+    text-decoration: none;
+    left: 129%;
+    margin-top: 27px;
+
+}
+
+header ul li a:hover{
+    color: wheat;
+    font-size: 105%;
+    transition: 0.1s;
+}

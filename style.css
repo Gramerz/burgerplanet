@@ -10,6 +10,8 @@ body {
 
 
 
+
+
 header, section, footer {
     
     width: 960px;
@@ -18,26 +20,16 @@ header, section, footer {
 
 }
 
-header {
-
-    background-color: #9a6936;
-    height: 260px;
-
-}
-
-section { 
-
-
-    background-color: #000000;
-    height: 350px;
-
+section {
+    background: linear-gradient(transparent, #9a6a36a4, black);
+    height: 560px;
+    position: relative;
 }
 
 footer {
-
-    background-color: #9a6936;
-    height: 250px;
-
+    background: linear-gradient(rgb(0, 0, 0),  black, black );
+    height: 100px;
+    position: relative;
 }
 
 
@@ -45,117 +37,85 @@ header #loremId {
     text-align:center;
     position: absolute;
     z-index: 2;
-    top: 100px;
-    width: 700px;
-    font-family: 'Courgette', cursive;
+    padding: 2%;
+    top: 65%;
+    left: 3%;
+    width: 600px;
+    font-family: 'Benne', serif;
     color: white;
+    font-size: 100%;
+    background: radial-gradient(transparent, rgba(0, 0, 0, 0.258) ,rgba(0, 0, 0, 0.639), rgba(0, 0, 0, 0.755), rgba(0, 0, 0, 0.81), black);
+    border: solid 5px;
+    border-radius: 15px;
+    border-image: linear-gradient(rgba(0, 0, 0, 0.585), #0000008d 100%) 0;
 }
+
 #navcaja1 {
-    
     position: relative;
     width: 960px;
-    height: 70px;
-    background: linear-gradient(
-        100deg
-        , #010100, transparent);
-    float: left;
-
+    height: 135px;
+    background: linear-gradient(black, rgba(0, 0, 0, 0.776), rgba(0, 0, 0, 0.701), transparent);
 }
 
 .titulo {
-
     margin-left: 1em;
     font-family: 'Courgette', cursive;
     font-size: 150%;
-    bottom: 1px;
     position: absolute;
     left: 20px;
     color: wheat;
     text-shadow: 2px 2px 5px yellow;
-  
 }
 
 .lema {
-
-    
-    font-family: 'Courgette', cursive;
+    font-family: 'Benne', serif;
     font-size: 100%;
-    bottom: 1px;
     position: absolute;
-    left: 16%;
-    top: 40%;
-    color: wheat;
-    text-shadow: 2px 2px 5px yellow;
-  
+    left: 10%;
+    top: 30%;
+    color: rgb(255, 255, 255);
 }
 
 #navegador {
-
     position: relative;
-
 }
 
-.difuminado{
-    background-color: rgb(194 163 115 / 22%);
-    position: absolute;
-    
-    width: 100%;
-    height: 100%;
-    border-radius: 150px;
-    right: 1px;
 
-}
 
 .hamburguesalogo { 
-
     width: 42px;
     margin-left: 96px;
-
    }
 
    
 
-#promosdeldia {
-
-    top: 7px;
+#redondel {
+    top: 55%;
     width: 259px;
     height: 240px;
-    background-image: url(https://image.freepik.com/foto-gratis/retrato-asombrado-aturdido-sorprendido-joven-ojos-boca-bien-abiertos_1150-12401.jpg);
+    background-image: url(https://i0.wp.com/www.buenmercadoacasa.com/blog/wp-content/uploads/2017/08/recetas-de-hamburguesas-parrilla-buenmercadoacasa.jpg?resize=1080%2C675&ssl=1);
     position: absolute;
     background-size: cover;
     background-position: center;
     border-radius: 150px;
-    left: 695px;
+    left: 689px;
     border: rgb(123, 76, 26) solid 2px;
-
 }
 
 .hamburguesapromos { 
-
     width: 70%;
     margin-top: 75px;
     margin-left: 45px;
     position: absolute;
-    
-    
-
 }
 
-.hombreasombrado { 
-
+.burgerplancha { 
     width: 100%;
     position: absolute;
     background-color: rgba(160, 81, 45, 0.469);
-    
-
 }
 
-
-
-
-
 #comprarpromo { 
-
     width: 45%;
     height: 9%;
     background-color: yellow;
@@ -172,25 +132,13 @@ header #loremId {
 }
 
 #menudehamburguesas  {
-    
-  position: relative;
+    position: relative;
     width: 800px;
     height: 220px;
     background-color: lavender;
     margin-left: auto;
     margin-right: auto;
-  
-    
-
 } 
-.videoburger {
-
-    width: 100%;
-    height: 350px;
-    
-    
-
-}	
 
 header ul {
     position: relative;
@@ -199,13 +147,13 @@ header ul {
     right: 600px;
     top: 20px;
     text-decoration: none;
-    
 }
+
 header ul li {
     list-style: none;
 }
-header ul li a {
 
+header ul li a {
     font-family: 'Courgette', cursive;
     font-size: 100%;
     position: absolute;
@@ -213,7 +161,6 @@ header ul li a {
     text-decoration: none;
     left: 129%;
     margin-top: 27px;
-
 }
 
 header ul li a:hover{
